@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/Casax_bg.qm</file>
+        <file alias="ca">locale/Casax_ca.qm</file>
+        <file alias="cs">locale/Casax_cs.qm</file>
+        <file alias="da">locale/Casax_da.qm</file>
+        <file alias="de">locale/Casax_de.qm</file>
+        <file alias="en">locale/Casax_en.qm</file>
+        <file alias="en_US">locale/Casax_en_US.qm</file>
+        <file alias="es">locale/Casax_es.qm</file>
+        <file alias="fi">locale/Casax_fi.qm</file>
+        <file alias="fr_FR">locale/Casax_fr_FR.qm</file>
+        <file alias="hr">locale/Casax_hr.qm</file>
+        <file alias="it">locale/Casax_it.qm</file>
+        <file alias="ja">locale/Casax_ja.qm</file>
+        <file alias="ko_KR">locale/Casax_ko_KR.qm</file>
+        <file alias="nl">locale/Casax_nl.qm</file>
+        <file alias="pl">locale/Casax_pl.qm</file>
+        <file alias="pt">locale/Casax_pt.qm</file>
+        <file alias="pt_BR">locale/Casax_pt_BR.qm</file>
+        <file alias="ro_RO">locale/Casax_ro_RO.qm</file>
+        <file alias="ru">locale/Casax_ru.qm</file>
+        <file alias="sk">locale/Casax_sk.qm</file>
+        <file alias="sv">locale/Casax_sv.qm</file>
+        <file alias="tr">locale/Casax_tr.qm</file>
+        <file alias="uk">locale/Casax_uk.qm</file>
+        <file alias="zh_CN">locale/Casax_zh_CN.qm</file>
+        <file alias="zh_TW">locale/Casax_zh_TW.qm</file>
+    </qresource>
+</RCC>

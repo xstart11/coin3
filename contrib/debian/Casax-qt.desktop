@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Casax
+Comment=Casax P2P Cryptocurrency
+Comment[fr]=Casax, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Casax, eşten eşe kriptografik sanal para birimi
+Exec=Casax-qt %u
+Terminal=false
+Type=Application
+Icon=Casax128
+MimeType=x-scheme-handler/Casax;
+Categories=Office;Finance;

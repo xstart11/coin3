@@ -1,0 +1,26 @@
+[Unit]
+Description=Casax's distributed currency daemon
+After=network.target
+
+[Service]
+User=Casax
+Group=Casax
+
+Type=forking
+PIDFile=/var/lib/Casaxd/Casaxd.pid
+
+ExecStart=/usr/bin/Casaxd -daemon -pid=/var/lib/Casaxd/Casaxd.pid \
+          -conf=/etc/Casax/Casax.conf -datadir=/var/lib/Casaxd
+
+ExecStop=-/usr/bin/Casax-cli -conf=/etc/Casax/Casax.conf \
+         -datadir=/var/lib/Casaxd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
